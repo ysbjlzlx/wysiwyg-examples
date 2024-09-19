@@ -1,9 +1,8 @@
-'use client';
+'use client'
 
-import {FC} from "react";
-import { MarkdownEditor, } from '@ant-design/md-editor';
+import {MarkdownEditor} from '@ant-design/md-editor';
 
-const Page:FC = () => {
+const Page = () => {
     const defaultValue = `
 # @ant-design/md-editor
 
@@ -23,6 +22,7 @@ pnpm add @ant-design/md-editor
             width={'100vw'}
             height={'100vh'}
             reportMode
+            toolBar={{enable: true}}
             initValue={defaultValue}
             onChange={(e, s) => {
                 console.log('onChange', e, s);
