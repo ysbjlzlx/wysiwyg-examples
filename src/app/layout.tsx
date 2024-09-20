@@ -3,6 +3,8 @@ import localFont from "next/font/local";
 import React from "react";
 
 import {cn} from "@/lib/utils";
+// 👇 import the providers
+import { Providers } from './providers';
 
 import "./globals.css";
 
@@ -27,7 +29,7 @@ const RootLayout = ({children}:{
     return (
         <html lang="zh">
         <body className={cn([geistSans.variable, geistMono.variable, 'antialiased'])}>
-        {children}
+        <Providers>{children}</Providers>
         </body>
         </html>
     );
