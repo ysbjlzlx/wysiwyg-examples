@@ -9,6 +9,7 @@ const Home: FC = () => {
         <div>
             <List>
                 <ListItem><Link href={'/ant-design/md-editor'}>@ant-design/md-editor</Link></ListItem>
+                <ListItem><Link href={'/vditor'}>vditor</Link></ListItem>
             </List>
         </div>
     );
