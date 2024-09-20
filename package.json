@@ -15,6 +15,7 @@
 		"@fluentui/react-list-preview": "0.3.6",
 		"fluentui-next-appdir-directive": "0.1.7",
 		"next": "14.2.13",
+		"quill": "2.0.2",
 		"react": "^18",
 		"react-dom": "^18",
 		"vditor": "3.10.6"
